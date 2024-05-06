@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#grid {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.easy {
+    width: 1000px;
+}
+
+.standard {
+    width: 900px;
+}
+
+.hard {
+    width: 700px;
+}
+
+.hidden {
+    display: none !important;
+
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px rgb(255, 255, 255) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+
+.evidenziato {
+    background-color: rgb(94, 114, 114);
+}
+
+#lose,
+#win {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 0;
+    right: 0;
+    color: red;
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.53);
+}
